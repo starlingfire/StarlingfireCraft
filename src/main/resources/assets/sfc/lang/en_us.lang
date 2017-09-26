@@ -1,0 +1,5 @@
+# Items
+item.sfc:led_torch_item.name=LED Torch
+
+# Blocks
+tile.sfc:led_torch_block.name=LED Torch
