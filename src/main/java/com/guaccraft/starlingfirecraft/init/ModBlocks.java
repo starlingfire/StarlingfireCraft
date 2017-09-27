@@ -31,28 +31,18 @@ public class ModBlocks
     public static void initClient(ItemModelMesher mesher)
     {
         Item item = Item.getItemFromBlock(ledTorchBlock);
-        ModelResourceLocation model1 = new ModelResourceLocation(Refs.RESOURCE_PREFIX + Names.LED_TORCH_BLOCK, "facing=east");
+        ModelResourceLocation model1 = new ModelResourceLocation(Refs.RESOURCE_PREFIX + Names.LED_TORCH_BLOCK, "facing=up");
         ModelResourceLocation model2 = new ModelResourceLocation(Refs.RESOURCE_PREFIX + Names.LED_TORCH_BLOCK, "facing=north");
         ModelResourceLocation model3 = new ModelResourceLocation(Refs.RESOURCE_PREFIX + Names.LED_TORCH_BLOCK, "facing=south");
-        ModelResourceLocation model4 = new ModelResourceLocation(Refs.RESOURCE_PREFIX + Names.LED_TORCH_BLOCK, "facing=up");
+        ModelResourceLocation model4 = new ModelResourceLocation(Refs.RESOURCE_PREFIX + Names.LED_TORCH_BLOCK, "facing=east");
         ModelResourceLocation model5 = new ModelResourceLocation(Refs.RESOURCE_PREFIX + Names.LED_TORCH_BLOCK, "facing=west");
+
         ModelLoader.registerItemVariants(item, model1, model2, model3, model4, model5);
+
         mesher.register(item, 0, model1);
-
-
-        //ModelLoader.registerItemVariants(item, model2);
         mesher.register(item, 1, model2);
-
-
-        //ModelLoader.registerItemVariants(item, model3);
         mesher.register(item, 2, model3);
-
-
-        //ModelLoader.registerItemVariants(item, model4);
         mesher.register(item, 3, model4);
-
-
-        //ModelLoader.registerItemVariants(item, model5);
         mesher.register(item, 4, model5);
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "block/torch_wall",
     "textures": {
-        "torch": "blocks/torch_on"
+        "torch": "sfc:blocks/torch_on"
     }
 }

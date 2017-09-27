@@ -17,8 +17,8 @@ public class BlockLedTorch extends BlockTorch
     @Override
     public Block setLightLevel(float value)
     {
-        //this.lightValue = (int)(15.0F * value);
-        this.lightValue = 10;
+        this.lightValue = (int)(10.0F * value);
+        //this.lightValue = 10;
         return this;
     }
 
