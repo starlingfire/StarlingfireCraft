@@ -9,8 +9,8 @@ public class Refs
 
     public static final String MODID = "sfc";
     public static final String NAME = "StarlingfireCraft";
-    public static final String VERSION = "@VERSION@";
-    public static final String DEPENDENCIES = "required-after:forge@[13.20.1.2386]"; //after:modid
+    public static final String VERSION = "0.1.0";
+    public static final String DEPENDENCIES = "required-after:forge@[13.20.0.2228,13.20.1.2386]"; //after:modid
     public static final String ACCEPTED_VERSIONS = "[1.11.2]";
     public static final String RESOURCE_PREFIX = MODID.toLowerCase() + ":";
 
