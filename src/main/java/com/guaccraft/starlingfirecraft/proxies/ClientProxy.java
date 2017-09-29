@@ -26,7 +26,6 @@ public class ClientProxy extends CommonProxy
 
         // Initialize the client side
         ModBlocks.initClient(mesher);
-        //ModItems.initClient(mesher);
     }
 
     @Override

@@ -1,7 +1,6 @@
 package com.guaccraft.starlingfirecraft.init;
 
 import com.guaccraft.starlingfirecraft.Refs;
-import com.guaccraft.starlingfirecraft.item.ItemLedTorch;
 import com.guaccraft.starlingfirecraft.libs.Names;
 import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -13,8 +12,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ModItems
 {
-    public static ItemLedTorch ledTorchItem;
-
     public static void init()
     {
         // Create item, set item's registry name, and register the item

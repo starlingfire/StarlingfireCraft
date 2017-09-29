@@ -4,8 +4,8 @@ public class Names
 {
     // Items
 
-    public static final String LED_TORCH_ITEM = "led_torch_item";
 
+    // Blocks
     public static final String LED_TORCH_BLOCK = "led_torch_block";
 
 }

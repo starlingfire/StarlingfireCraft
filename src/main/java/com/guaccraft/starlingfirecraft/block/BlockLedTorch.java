@@ -14,6 +14,13 @@ import java.util.Random;
 
 public class BlockLedTorch extends BlockTorch
 {
+    public BlockLedTorch()
+    {
+        setDefaultState(blockState.getBaseState());
+        setTickRandomly(false);
+        setLightLevel(1.0F);
+    }
+
     @Override
     public Block setLightLevel(float value)
     {

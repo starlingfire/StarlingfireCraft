@@ -3,7 +3,7 @@
   "modid": "sfc",
   "name": "StarlingfireCraft",
   "description": "Starlingfire's addons for Pam's HarvestCraft",
-  "version": "0.1",
+  "version": "0.1.0",
   "mcversion": "1.11.2",
   "url": "",
   "updateUrl": "",
